@@ -29,7 +29,7 @@ Then you can autofill forms by:
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/quick-autofill-extension.git
+git clone https://github.com/mashhood-ma/quick-autofill-extension.git
 
 2. Open Chrome and go to:
 
