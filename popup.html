@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>پرکن خودکار</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body dir="rtl">
+    <div class="app">
+      <div class="hero">
+        <div class="hero-badge">⚡</div>
+        <div class="hero-text">
+          <h1>پرکن خودکار</h1>
+          <p>یکبار اطلاعاتت را ذخیره کن و فرم‌ها را با یک کلیک پر کن.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-title">اطلاعات شما</div>
+
+        <label class="field">
+          <span>نام و نام خانوادگی</span>
+          <input
+            id="name"
+            class="input"
+            type="text"
+            placeholder="مثال: علی رضایی"
+          />
+        </label>
+
+        <label class="field">
+          <span>ایمیل</span>
+          <input
+            id="email"
+            class="input"
+            type="email"
+            placeholder="example@email.com"
+          />
+        </label>
+
+        <label class="field">
+          <span>شماره تلفن</span>
+          <input
+            id="phone"
+            class="input"
+            type="text"
+            placeholder="0912 345 6789"
+          />
+        </label>
+
+        <label class="field">
+          <span>آدرس</span>
+          <textarea
+            id="address"
+            class="input textarea"
+            placeholder="آدرس خود را وارد کنید"
+          ></textarea>
+        </label>
+
+        <div class="actions">
+          <button id="save" class="btn btn-secondary">ذخیره اطلاعات</button>
+          <button id="fill" class="btn btn-primary">پر کردن فرم</button>
+        </div>
+
+        <div class="hint">
+          نکته: می‌توانید از دکمه پرکن خودکار که داخل فیلدهای فرم ظاهر می‌شود
+          نیز استفاده کنید.
+        </div>
+      </div>
+
+      <div class="footer">ساخته شده برای پر کردن سریع و آسان فرم‌ها</div>
+    </div>
+
+    <div id="toast" class="toast">اطلاعات با موفقیت ذخیره شد ✅</div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
